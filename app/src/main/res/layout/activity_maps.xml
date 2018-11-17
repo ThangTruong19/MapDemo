@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thangtruong19.mapdemo.MapsActivity">
-<fragment
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    />
+    tools:context="com.thangtruong19.mapdemo2.MapsActivity">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -49,14 +49,5 @@
         android:id="@+id/ic_gps"
         android:src="@drawable/ic_gps"
         />
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/relLayout1"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="15dp"
-        android:scaleType="centerCrop"
-        android:id="@+id/place_info"
-        android:src="@drawable/ic_info"
-        />
+
 </RelativeLayout>
